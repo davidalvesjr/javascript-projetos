@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Projetos | David Alves</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #0f172a;
+            color: #f8fafc;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px 40px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #38bdf8;
+        }
+
+        header p {
+            color: #cbd5e1;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        main {
+            width: 90%;
+            max-width: 900px;
+            margin: 20px auto;
+            flex: 1;
+        }
+
+        .projetos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 30px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card h2 {
+            color: #38bdf8;
+            margin-bottom: 15px;
+        }
+
+        .card p {
+            color: #cbd5e1;
+            line-height: 1.5;
+            margin-bottom: 25px;
+        }
+
+        .botao {
+            display: inline-block;
+            background: #0284c7;
+            color: white;
+            text-decoration: none;
+            padding: 12px 22px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .botao:hover {
+            background: #0369a1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #94a3b8;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meus Projetos</h1>
+        <p>
+            Olá! Sou David Alves, estudante de Análise e Desenvolvimento
+            de Sistemas.<br>
+            Este espaço reúne meus projetos e exercícios de programação.
+        </p>
+    </header>
+
+    <main>
+        <section class="projetos">
+
+            <div class="card">
+                <h2>Calculadora</h2>
+                <p>
+                    Projeto desenvolvido com HTML e JavaScript
+                    para praticar operações matemáticas.
+                </p>
+                <a href="calculadora/calculadora.html" class="botao">
+                    Abrir Calculadora
+                </a>
+            </div>
+
+            <div class="card">
+                <h2>Cadastro de Recrutas</h2>
+                <p>
+                    Exercício de programação utilizando HTML e JavaScript
+                    para praticar lógica e entrada de dados.
+                </p>
+                <a href="cadastro-recrutas/recrutas.html" class="botao">
+                    Abrir Projeto
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido por David Alves | 2026
+    </footer>
+
+</body>
+</html>
