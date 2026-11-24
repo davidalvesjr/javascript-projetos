@@ -5,7 +5,7 @@ const anoDeNascimento = prompt ("Qual é o ano de nascimento do recruta?")
 
 
 alert (
-    "Boca aberta cadastrado com sucesso!\n" +
+    "Recruta cadastrado com sucesso!\n" +
     "\nNome completo: " + primeiroNome + " " + sobreNome +
     "\nCampo de estudo: " + campoDeEstudo +
     "\nIdade: " + (2022 - anoDeNascimento)
