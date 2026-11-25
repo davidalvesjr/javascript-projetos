@@ -1,3 +1,4 @@
+![Projetos JavaScript](capa-projetos-javascript.png)
 # 💻 Projetos JavaScript
 
 ### Exercícios práticos de lógica de programação e desenvolvimento web
