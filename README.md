@@ -1,38 +1,69 @@
-
 # 💻 Projetos JavaScript
 
-Olá! Seja bem-vindo(a) ao meu repositório de projetos e exercícios práticos de JavaScript.
+### Exercícios práticos de lógica de programação e desenvolvimento web
 
-Meu nome é **David Alves** e sou estudante de Análise e Desenvolvimento de Sistemas (ADS), atualmente direcionando meus estudos para o desenvolvimento web e Full Stack.
+## 📌 Sobre o repositório
 
-Este repositório reúne exercícios desenvolvidos durante minha jornada de aprendizado, com foco no desenvolvimento da lógica de programação e na aplicação prática dos conhecimentos adquiridos.
+Este repositório reúne exercícios desenvolvidos durante meus estudos de JavaScript, com foco na prática de lógica de programação, resolução de problemas e desenvolvimento de pequenas aplicações web.
 
-## 🚀 Projetos
+Os projetos fazem parte da minha evolução como estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Full Stack em formação.
 
-### 1. Calculadora
-Exercício prático desenvolvido com HTML e JavaScript, com o objetivo de trabalhar operações matemáticas e lógica de programação.
+## 🚀 Projetos disponíveis
 
-🔗 [Acessar Calculadora](https://davidalvesjr.github.io/javascript-projetos/calculadora/calculadora.html)
+### 🧮 1. Calculadora
 
-### 2. Cadastro de Recrutas
-Exercício prático desenvolvido com HTML e JavaScript, utilizando conceitos de entrada de dados, variáveis e manipulação de informações.
+Projeto desenvolvido para praticar operações matemáticas e conceitos fundamentais de JavaScript.
 
-🔗 [Acessar Cadastro de Recrutas](https://davidalvesjr.github.io/javascript-projetos/cadastro-recrutas/recrutas.html)
+- **Tecnologias:** HTML e JavaScript.
+- **Objetivo:** praticar lógica de programação e operações matemáticas.
+
+🔗 **[Acessar Calculadora](https://davidalvesjr.github.io/javascript-projetos/calculadora/calculadora.html)**
+
+### 👤 2. Cadastro de Recrutas
+
+Exercício prático de programação que trabalha a entrada e o armazenamento de informações de pessoas.
+
+- **Tecnologias:** HTML e JavaScript.
+- **Objetivo:** praticar variáveis, entrada de dados e manipulação de informações.
+
+🔗 **[Acessar Cadastro de Recrutas](https://davidalvesjr.github.io/javascript-projetos/cadastro-recrutas/recrutas.html)**
 
 ## 🛠️ Tecnologias utilizadas
 
-- HTML5
+- HTML
 - JavaScript
 
-## 🎯 Objetivo
+## 📂 Organização do repositório
 
-Desenvolver o raciocínio lógico, fortalecer os fundamentos da programação e evoluir continuamente minhas habilidades em desenvolvimento web.
+```text
+javascript-projetos/
+│
+├── calculadora/
+│   ├── calculadora.html
+│   └── calculadora.js
+│
+├── cadastro-recrutas/
+│   ├── recrutas.html
+│   └── recrutas.js
+│
+├── index.html
+└── README.md
+```
 
-Este repositório será atualizado conforme avanço nos estudos e desenvolvo novos projetos.
+## 🎯 Objetivo de aprendizagem
+
+Consolidar os fundamentos de JavaScript, desenvolver o raciocínio lógico e aprimorar a capacidade de transformar problemas em soluções por meio da programação.
+
+Este repositório será atualizado conforme minha evolução nos estudos e o desenvolvimento de novos exercícios.
+
+## 👨‍💻 Autor
+
+**David Alves**
+
+Estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor Full Stack em formação.
+
+- **GitHub:** [@davidalvesjr](https://github.com/davidalvesjr)
 
 ---
 
-**Desenvolvido por David Alves**
-
-[Meu perfil no GitHub](https://github.com/davidalvesjr)
-
+⭐ Repositório dedicado à prática e evolução contínua em JavaScript.
